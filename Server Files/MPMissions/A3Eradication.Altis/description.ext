@@ -1,0 +1,41 @@
+author = "Majarkin, Nutyyyy, and Ryan";
+onLoadName = "ArmA 3 Eradication";
+onloadmission = "Last Man Standing Game Mode";
+
+class Header
+{
+	gameType = DM;
+	minPlayers = 1;
+	maxPlayers = 48;
+};
+
+OnLoadIntroTime = False;
+OnLoadMissionTime = False;
+
+respawn = "BASE";
+respawndelay = 5;
+
+disableChannels[]={0,1,2,6}; //Disable Global, Side, Command, and System chat
+
+enableItemsDropping = 1; //Enable Item dropping while swimming
+
+enableDebugConsole = 1; //Enable debug consule for everyone
+
+joinUnassigned = 0;  //Auto Assign free playable slot in mission lobby
+
+disabledAI = true; //Disable AI Automatically
+
+enableTeamSwitch = 0;
+
+saving = 0; //Disable saving
+
+respawnButton = 1; //Enable Respawn Button
+
+corpseLimit = 40;
+corpseRemovalMinTime = 300;
+corpseRemovalMaxTime = 1000;
+
+briefing = 0;
+debriefing = 0;
+
+#include "Loot_Data.hpp"
