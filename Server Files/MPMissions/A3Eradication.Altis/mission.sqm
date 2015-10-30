@@ -11,11 +11,9 @@ class Mission
 		"A3_Air_F_Heli_Heli_Transport_03",
 		"A3_Soft_F_Quadbike",
 		"A3_Modules_F_Multiplayer",
-		"ZodiacCRRC",
 		"A3_Boat_F_Boat_Transport_01",
 		"a3_boat_f_beta_boat_transport_01",
-		"A3_Boat_F_Beta_Boat_Armed_01",
-		"oh_boats"
+		"A3_Boat_F_Beta_Boat_Armed_01"
 	};
 	addOnsAuto[]=
 	{

@@ -1,5 +1,5 @@
 _allowedBoats = ["B_Boat_Transport_01_F","B_SDV_01_F","O_SDV_01_F","C_Boat_Civil_01_F","B_Boat_Armed_01_minigun_F",
-				"C_Boat_Civil_01_rescue_F","I_Boat_Transport_01_F","ZodiacCRRCboat","B_G_Boat_Transport_01_F",
+				"C_Boat_Civil_01_rescue_F","I_Boat_Transport_01_F","B_G_Boat_Transport_01_F",
 				"C_Boat_Civil_01_police_F","C_Rubberboat","O_Lifeboat","B_Lifeboat"
 				];
 

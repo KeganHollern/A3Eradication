@@ -326,7 +326,6 @@ class CfgLoot {
 			{"B_OutdoorPack_tan",1},
 			{"B_OutdoorPack_blu",1},			
 			{"B_HuntingBackpack",1},
-			{"B_CRRC_backpack",1},
 			{"CUP_B_ACRScout_m95",1}
 		};
 	};
@@ -621,8 +620,7 @@ class CfgLoot {
 			{"B_OutdoorPack_tan",3},
 			{"B_OutdoorPack_blu",3},
 			{"B_HuntingBackpack",4},
-			{"CUP_B_ACRScout_m95",1},
-			{"B_CRRC_backpack",1}
+			{"CUP_B_ACRScout_m95",1}
 		};
 	};
 	class LV {
@@ -850,8 +848,7 @@ class CfgLoot {
 			{"B_OutdoorPack_tan",4},
 			{"B_OutdoorPack_blu",4},
 			{"B_HuntingBackpack",6},
-			{"CUP_B_ACRScout_m95",1},
-			{"B_CRRC_backpack",0.25}
+			{"CUP_B_ACRScout_m95",1}
 		};
 	};
 	
@@ -921,7 +918,6 @@ class SniperPackage {
 			{"U_I_GhillieFull",1},
 			{"U_B_GhillieFull_wdl",1},
 			{"B_Kitbag_sgg",3},
-			{"B_CRRC_backpack",5},
 			{"V_PlateCarrierL_CTRG",3},
 			{"V_PlateCarrierH_CTRG",3},
 			{"V_PlateCarrierIA2_dgtl",3},
@@ -973,7 +969,6 @@ class ARPackage {
 			{"U_O_Wetsuit",3},
 			{"U_B_Wetsuit",3},
 			{"U_I_Wetsuit",3},
-			{"B_CRRC_backpack",5},
 			{"B_Kitbag_sgg",5},
 			{"U_I_GhillieSuit",0.25},
 			{"U_O_GhillieSuit_Net",0.25},
@@ -1037,7 +1032,6 @@ class LMGPackage {
 			{"U_O_Wetsuit",2},
 			{"U_B_Wetsuit",2},
 			{"U_I_Wetsuit",2},
-			{"B_CRRC_backpack",5},
 			{"B_Kitbag_sgg",5},
 			{"U_I_GhillieSuit",0.25},
 			{"U_O_GhillieSuit_Net",0.25},
