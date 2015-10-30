@@ -695,7 +695,8 @@ switch _mode do {
 		};
 		_return
 	};
-
+	
+	
 	case "KeyUp": {
 		BIS_fnc_camera_keys set [_this select 1,false];
 	};
@@ -818,6 +819,20 @@ switch _mode do {
 			"",
 			1
 		];
+		{
+		   if(_x getVariable ["packageLanded",false]) then {
+				_ctrlMap drawIcon[
+					gettext (configfile >> "CfgMarkers" >> "Mil_Box" >> "Icon"),
+					[1,0,0,1],
+					getpos _x,
+					16,
+					16,
+					getdir _x,
+					"",
+					1
+				];
+			};
+		} forEach ((markerPos "center") nearObjects ["Land_CargoBox_V1_F",(markerSize "center") select 0]);
 		{
 		    if(side _x != civilian) then {
 		        _ctrlMap drawIcon[

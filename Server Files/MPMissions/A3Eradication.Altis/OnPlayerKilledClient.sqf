@@ -1,5 +1,9 @@
 if(_dead == player) then { 
 	group_lock = false;	
+	//--- Killed, Show killer POV (temp until we add our own Camera object to handle this)
+	if(isPlayer(_killer)) then {
+		_killer switchCamera "External";
+	};
 	[] spawn {
 	    if(!isNil "Spectator_Started") exitWith {};
 	    Spectator_Started = true;
@@ -8,25 +12,6 @@ if(_dead == player) then {
 		call A3E_AddDeath;
 		
 		Spectator_OrigPos = position player;
-		[] spawn {
-			while{true} do {
-				{
-				   if(_x getVariable ["packageLanded",false]) then {
-						_pos = getpos _x;
-						_id = str(random(10000));
-						/*if !(_id in allMapMarkers) then {
-    						if(!isServer) then {
-    							_debug = createMarkerLocal [_id,_pos];
-    							_debug setMarkerShapeLocal "ICON";
-    							_debug setMarkerTypeLocal "hd_dot";
-    							_debug setMarkerColorLocal "ColorRed";
-    						};
-						};*/
-					};
-				} forEach (allMissionObjects "Land_CargoBox_V1_F");
-				uiSleep 1; 
-			};
-		};
 		waitUntil{alive player};
 		if(isNil "spectatorUnitPositions") then {spectatorUnitPositions = [0,0,0];};
 		player setPos [(spectatorUnitPositions select 0) - 10 + floor(random(20)),(spectatorUnitPositions select 1) - 10 + floor(random(20)),0];
