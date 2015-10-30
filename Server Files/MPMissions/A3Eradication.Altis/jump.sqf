@@ -26,7 +26,7 @@ dokeyDown = {
 			player setVelocity [(_vel select 0)+(sin _dir*_speed),(_vel select 1)+(cos _dir*_speed),_height];
 			Animation = [player,"AovrPercMrunSrasWrflDf"];
 			_lastAnim = animationState player;
-			publicVariable "BR_Animation";
+			publicVariable "Animation";
 			player switchMove "AovrPercMrunSrasWrflDf";
 			_lastAnim spawn {uiSleep 0.73;player switchMove _this;player setvariable ["jump",true];};
 		};
