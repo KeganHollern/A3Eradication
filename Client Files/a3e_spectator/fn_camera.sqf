@@ -58,6 +58,7 @@
 
 disableserialization;
 
+
 //--- Function called before display - create display and terminate
 if (count _this <= 1) exitwith {
 
