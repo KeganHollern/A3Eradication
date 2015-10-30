@@ -7,7 +7,7 @@
 class CfgPatches {
 	class a3e_client {
 		requiredVersion = 0.1;
-		requiredAddons[] = {"a3_ui_f","a3_data_f","a3_map_altis_scenes", "a3_map_vr_scenes", "a3_map_stratis_scenes","wake","A3_Map_Pianosa_aut"};
+		requiredAddons[] = {"a3_ui_f","a3_data_f","a3_map_altis_scenes", "a3_map_vr_scenes", "a3_map_stratis_scenes","wake"};
 		units[] = {"Player_F"};
 	};
 };
