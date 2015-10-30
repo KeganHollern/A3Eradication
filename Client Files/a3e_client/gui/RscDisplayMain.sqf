@@ -96,7 +96,7 @@ switch _mode do {
 		_text = "<t color='#FFFFFF'>Kills: </t>" + str(_kills) + "<br/>";
 		_text = _text + "<t color='#FFFFFF'>Wins: </t>" + str(_wins) + "<br/>";
 		_text = _text + "<t color='#FFFFFF'>Deaths: </t>" + str(_deaths) + "<br/>";
-		_text = _text + "<t color='#FFFFFF'>Win Rate: </t>" + str(_winRate) + "<br/>";
+		_text = _text + "<t color='#FFFFFF'>Win Rate: </t>" + str(_winRate) + "%<br/>";
 		
 		_control = _display displayCtrl 1341;
 		_control ctrlSetStructuredText (parseText _text);
