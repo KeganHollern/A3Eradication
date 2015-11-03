@@ -13,7 +13,7 @@ class CfgPatches {
 };
 //--- Mod Settings
 class CfgSettings {
-	isdev = 0;
+	isdev = 1;
 	statkey = "BibleThump_Kappa";
 	tracks[] = {"MAD","SkyNet","Wasteland","Track01_Proteus","Defcon"};
 };
